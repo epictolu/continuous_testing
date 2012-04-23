@@ -26,6 +26,8 @@ def report_on_build_result
 		@message = "all tests succeeded"
 	end
 
+	puts @message
+
 	send_notification 
 end
 
